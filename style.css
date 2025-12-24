@@ -1,0 +1,132 @@
+:root{
+
+}
+  		 
+*{ 
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+	
+}
+
+
+
+html{
+	padding: 0;
+	overflow-x: hidden;
+
+}
+.head1{
+	height: 2.5rem;
+	width: 100%;
+	background-color: rgba(190, 190, 190 , 0.25);
+	font-size: 0.75rem;
+	display: flex;
+	align-items: center;
+}
+.head2{
+	height: 7.5rem;
+	background-color: white;
+	box-shadow: 0rem 0.25rem 0.5rem rgba( 200, 200, 200, 0.5);
+	display: flex;
+	flex-direction: row;
+}
+.logoWeb{
+	margin-left: 5.625rem;
+	width: 9.375rem;
+}
+.dsh2{
+	padding: 0rem 0.8125rem;
+	background-color: white;
+	border: 2px solid white;
+	font-size: 14px;
+	font-weight: bold;
+}
+.dsh2::after{
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+	content: '';
+  position: absolute;
+  height: 0.875rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-top: 0.4375rem;
+	margin-left: 0.75rem;
+}
+.dsh2:hover{
+	cursor: pointer;
+	color: lightblue;
+	transition: 0.3s;
+}
+.dch1{
+	font-size: 0.8125rem;
+	font-weight: bold;
+	color: grey;
+	margin-left: 1.25rem;
+}
+.dch1:hover{
+	cursor: pointer;
+	color: black;
+}
+.dch1::after{
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+	content: '';
+  	position: absolute;
+  	height: 0.9375rem;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin-top: 0.4375rem;
+	margin-left: 0.75rem;
+}
+.Gd-s1{
+	width: 6rem;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: end;
+	padding-bottom: 0.6rem;
+	font-size: 0.65rem;
+	font-weight: bold;
+}
+.xemth1{
+	position: absolute;
+	left: 65%; top: 80%; 
+	border:0px solid white; 
+	background-color: white; color: grey; border-radius: 5px; 
+	padding-inline: 12px; font-weight: 600; margin-top: 15px; 
+	padding-block: 3px;
+	transition: 0.5s;
+}
+.xemth1:hover{
+	background-color: rgba(200, 200, 200, 0.4);
+}
+.Gd-s3{
+	position: relative;
+	background-color: rgba(200, 200, 200, 0.25);
+	overflow: hidden;
+}
+
+.xsp{
+	font-weight: bold; color: lightblue; text-decoration: none;
+	padding-top: 1rem;
+}
+.xsp:hover{
+	cursor: pointer;
+	color: black;
+	transition: 0.5s, 0.5s;
+}
+
+
+.ud{
+	height: 33rem; 
+	width: 22.85rem;
+	transition: 0.8s;
+	border-radius: 0.5rem;
+}
+.ud:hover{
+	height: 36rem; 
+	width: 25rem;
+}
+.foot1:hover{
+	cursor: pointer;
+	color: white;
+}
